@@ -1,0 +1,124 @@
+/* CardioCloud UI styles - kept separate from app.py */
+
+.stApp {
+    background-color: #F3F6FB;
+    color: #172B4D;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #10243A;
+}
+
+[data-testid="stSidebar"] * {
+    color: #FFFFFF;
+}
+
+/* Main heading */
+.main-title {
+    font-size: 34px;
+    font-weight: 800;
+    color: #10243A !important;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #425570 !important;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.section-title {
+    color: #10243A !important;
+    font-size: 23px;
+    font-weight: 750;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+/* Main page text */
+[data-testid="stMain"] p,
+[data-testid="stMain"] label,
+[data-testid="stMain"] li {
+    color: #24364B;
+}
+
+/* Metric cards */
+div[data-testid="stMetric"] {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 14px;
+    padding: 18px;
+    box-shadow: 0 2px 6px rgba(16, 36, 58, 0.06);
+}
+
+div[data-testid="stMetricLabel"] {
+    color: #425570 !important;
+    font-weight: 600;
+}
+
+div[data-testid="stMetricValue"] {
+    color: #10243A !important;
+    font-weight: 750;
+}
+
+/* Bordered detail cards */
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] {
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 14px;
+}
+
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] h1,
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] h2,
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] h3 {
+    color: #10243A !important;
+}
+
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] p,
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] span,
+[data-testid="stMain"] [data-testid="stVerticalBlockBorderWrapper"] strong {
+    color: #24364B !important;
+}
+
+/* File uploader */
+[data-testid="stFileUploader"] {
+    background-color: #FFFFFF;
+    border: 1px dashed #94A3B8;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+/* Download button */
+div.stDownloadButton > button {
+    background-color: #087F8C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 9px;
+    font-weight: 650;
+    padding: 10px 18px;
+}
+
+div.stDownloadButton > button:hover {
+    background-color: #066773;
+    color: #FFFFFF;
+}
+
+/* Status notice */
+.notice {
+    background-color: #DDF5EF;
+    border: 1px solid #8AD5C2;
+    padding: 14px;
+    border-radius: 10px;
+    color: #075E50 !important;
+    font-weight: 650;
+    margin: 12px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: #425570 !important;
+    font-size: 13px;
+    padding-top: 30px;
+}
